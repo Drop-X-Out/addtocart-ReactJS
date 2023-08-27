@@ -27,6 +27,8 @@ section {
     font-weight: bold;
 }
 
+
+
 .details p:nth-child(2) {
     color: grey;
     font-size: 0.8rem;
