@@ -7,6 +7,7 @@ import Headers from './components/Headers';
 import { Routes, Route } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
+import Footer from './Footer';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/user/otp' element={<Otp />} />
         <Route path='*' element={<Error />} />
       </Routes>
+      <Footer />
     </>
   );
 }
