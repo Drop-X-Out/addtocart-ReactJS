@@ -95,6 +95,30 @@ const list = [
       img: "https://m.media-amazon.com/images/I/81jv44QdNwL._AC_UY327_FMwebp_QL65_.jpg",
       amount: 1,
     },
+    {
+      id: 13,
+      title: "The Gruffalo",
+      author: "by Julia Donaldson  | 23 March 1999",
+      price: 150,
+      img: "https://upload.wikimedia.org/wikipedia/en/3/34/Fairuse_Gruffalo.jpg",
+      amount: 1,
+    },
+    {
+      id: 14,
+      title: "Pete the Cat",
+      author: "by Kimberly Dean, James Dean, Eric Litwin",
+      price: 250,
+      img: "https://upload.wikimedia.org/wikipedia/en/7/7c/Petecover.jpg",
+      amount: 1,
+    },
+    {
+      id: 15,
+      title: "Goodnight Moon",
+      author: "by 	Margaret Wise Brown | 3 September 1947",
+      price: 200,
+      img: "https://upload.wikimedia.org/wikipedia/en/5/51/Goodnightmoon.jpg",
+      amount: 1,
+    },
   ];
   
   export default list;
