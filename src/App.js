@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Shop from './components/Shop'
 import './App.css';
 import Cart from './components/Cart';
+import Footer from './components/Footer';
 
 const App = () => {
 
@@ -54,6 +55,14 @@ const App = () => {
       {
         warning && <div className='warning'> Item is already in your cart </div>
       }
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div>
+      <Footer></Footer>
+      </div>
     </div>
   )
 }

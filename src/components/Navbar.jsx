@@ -7,7 +7,7 @@ const Navbar = ({size,setShow}) => {
     <nav>
         <div className='nav_box'>
             <span className='my_shop' onClick={()=> setShow(true)}>
-                DxO Shop - A Book Heaven
+                DxO Shop 
             </span>
             <div className='meow' onClick={()=> setShow(false)}>
             <span>Login</span>
