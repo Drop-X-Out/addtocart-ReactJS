@@ -12,7 +12,7 @@ class Footer extends React.Component
                     
                     <div className="row">
                         <p className="col-sm">
-                             &copy;{new Date().getFullYear()} DoX Shop | All rights Reserved 
+                             &copy;{new Date().getFullYear()} DoX Shop | All rights Reserved. 
                         </p>
                     </div>
                 </div>
