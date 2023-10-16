@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-// import '../styles/Slider.css';
+import '../styles/Slider.css';
 import review from "../review"
 
 const Slider = () => {
