@@ -4,6 +4,7 @@ import Shop from './components/Shop'
 import './App.css';
 import Cart from './components/Cart';
 import Footer from './components/Footer';
+import Slider from './components/Slider';
 
 const App = () => {
 
@@ -58,8 +59,9 @@ const App = () => {
       <br></br>
       <br></br>
       <br></br>
-      <br></br>
-      <br></br>
+      <div>
+        <Slider />
+      </div>
       <div>
       <Footer></Footer>
       </div>
