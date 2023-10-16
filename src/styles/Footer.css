@@ -1,0 +1,13 @@
+.main-footer{
+    color: white;
+    background-color: black;
+    padding-top: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.row{
+    text-align: center;
+    padding-bottom: 1em;
+    
+}
