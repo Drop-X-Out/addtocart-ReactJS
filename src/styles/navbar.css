@@ -39,3 +39,13 @@ nav{
     top: -15px;
 
 }
+
+.meow{
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    margin-left: 73%;
+    margin-top: 15px;
+}

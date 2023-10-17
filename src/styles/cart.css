@@ -25,7 +25,7 @@ article {
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid rgb(12, 8, 1);
     padding-bottom: 5px;
 }
 
@@ -34,7 +34,6 @@ article {
     justify-content: space-between;
 }
 .total span:nth-child(1){
-color: orange;
 font-weight: bold;
 letter-spacing: 2px;
 font-size: 2rem;
@@ -42,7 +41,29 @@ font-size: 2rem;
 
 .total span:nth-child(2){
     font-size: 2rem;
-    color: red;
     font-weight: bold;
 }
 
+button{
+    padding: 5px 10px;
+    margin: 2px;
+      border:none;
+      font-weight: bold;
+      color: #fff;
+      background-color: rgb(130, 178, 215);
+      outline: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .removebtn{
+    padding: 5px 10px;
+    margin: 2px;
+      border:none;
+      font-weight: bold;
+      color: #fff;
+      background-color: rgb(181, 30, 30);
+      outline: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
