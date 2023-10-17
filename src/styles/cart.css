@@ -29,12 +29,15 @@ article {
     padding-bottom: 5px;
 }
 
+
+
+
 .total{
     display: flex;
     justify-content: space-between;
 }
 .total span:nth-child(1){
-color: orange;
+color:  rgb(42, 27, 139);
 font-weight: bold;
 letter-spacing: 2px;
 font-size: 2rem;
@@ -42,7 +45,7 @@ font-size: 2rem;
 
 .total span:nth-child(2){
     font-size: 2rem;
-    color: red;
+    color: rgb(28, 17, 100);
     font-weight: bold;
 }
 

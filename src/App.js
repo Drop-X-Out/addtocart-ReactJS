@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Shop from './components/Shop'
+import Search from './components/Search'
 import './App.css';
 import Cart from './components/Cart';
 
@@ -47,6 +48,7 @@ const App = () => {
   return (
     <div>
       <Navbar size={cart.length} setShow={setShow}/>
+      <Search ></Search>
       {
         show ? <Shop handleClick={handleClick} /> : <Cart cart={cart} setCart={setCart} handleChange={handleChange}/>
       }
